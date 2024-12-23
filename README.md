@@ -1,0 +1,2 @@
+# supermarket-sales-analyzer
+**

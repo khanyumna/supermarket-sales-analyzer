@@ -1,0 +1,92 @@
+/* General Background and Font */
+body {
+  background-color: #FFD1DC; /* Light Pink */
+  font-family: "Helvetica", sans-serif;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+h1 {
+  text-align: center;
+  color: #333333;
+  margin: 20px 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Metric Summary Section */
+.metric-summary {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  background-color: #FFFACD; /* Light Yellow */
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft Shadow */
+}
+
+.metric-summary h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333333;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Graph Containers */
+.graph-container {
+  border: 2px solid #FFC0CB; /* Light Pink Border */
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft Shadow */
+  background-color: #FFFACD; /* Light Yellow Plot Background */
+}
+
+/* Buttons */
+button {
+  background-color: #FF69B4; /* Vibrant Pink */
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #FF85C3;
+}
+
+/* Sticky Sections */
+.sticky-section {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFD1DC; /* Light Pink Background */
+  text-align: center;
+  color: #333; /* Dark Text */
+}
+
+.sticky-section .content {
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .metric-summary {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
